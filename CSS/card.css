@@ -1,0 +1,100 @@
+.carrd {
+    border: 1px solid #222079;
+    padding: 2px;
+    max-width: 300px;
+    margin-left: 14px;
+    border-radius: 3px;
+    background: transparent;
+    font-size: 12.6px;
+}
+
+.characterName {
+    line-height: 1.25;
+    padding: 12px 9px;
+    background: #222079;
+    font-size: 18px;
+    color: #FFF;
+    text-align: center;
+}
+
+.characterInfoBlock {
+    background: #222079;
+    margin-bottom: 1px;
+    font-size: 16px;
+    padding: 5px;
+    color: #FFF;
+    text-align: center;
+}
+
+.charInfoTitle {
+    font-weight: bold;
+    border-top: 1px solid #999;
+    padding: 4px;
+    width: 31%;
+}
+
+.charInfoEntry {
+    border-top: 1px solid #999;
+    padding: 4px;
+    margin-bottom: 1px;
+    width: 69%
+}
+
+.imageContainer {
+    padding: 0.2em
+}
+
+.headshotImage,
+.tabImage {
+    width: 290px;
+    height: 400px;
+}
+
+#characterName {
+    color: #222079;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+#subtitle {
+    color: #222079;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    font-size: 25px;
+    font-style: italic;
+}
+
+
+ul {
+    list-style-type: square;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+}
+
+
+/* On screens that are less than 1500px wide, make the sidebar into a topbar */
+@media screen and (max-width: 1500px) {
+
+    .headshotImage,
+    .tabImage {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+
+    .headshotImage,
+    .tabImage {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+}
