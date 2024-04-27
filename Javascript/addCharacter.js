@@ -5,14 +5,17 @@ var $ = function (id) { return document.getElementById(id); };
 
 function validateInput() {
 
+    //assign to variables
     var fullName = document.getElementById("fullName").value;
     var image = document.getElementById("image").value;
     var age = document.getElementById("age").value;
     var occupation = document.getElementById("occupation").value;
 
-
+    //validation
     var valid = true;
 
+    //checks if the full name, image, age and/or occupation entries are empty
+    //if empty, valid is set to false (otherwise the form will still submit) and a "Not valid" message is issued
     if (fullName == "") {
         document.getElementById("fullName_error").innerHTML = "Not valid";
         valid = false;
@@ -43,12 +46,14 @@ function validateInput() {
         document.getElementById("occupation_error").innerHTML = " ";
     }
 
+    
     if (valid == true) { saveReservation(); }
 }
 
 
 var saveReservation = function () {
     //sessionStorage.setItem("key", "value");
+    //Setting the values of the specified Storage Object item
 
     sessionStorage.setItem("fullName", $("fullName").value);
     sessionStorage.setItem("image", $("image").value);
@@ -57,13 +62,14 @@ var saveReservation = function () {
     sessionStorage.setItem("occupation", $("occupation").value);
     sessionStorage.setItem("image", $("image").value);
 
-    //Status
+    //Decide which status radio button has been selected
     if ($("Alive").checked) {
         sessionStorage.setItem("status", $("Alive").value);
     }
     else if ($("Deceased").checked) {
         sessionStorage.setItem("status", $("Deceased").value);
     }
+    
 
     sessionStorage.setItem("mother", $("mother").value);
     sessionStorage.setItem("father", $("father").value);

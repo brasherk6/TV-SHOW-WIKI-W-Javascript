@@ -1,12 +1,6 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <script src="interactiveButtons.js"></script>
-    <link rel="stylesheet" href="Resume\CSS\card.css">
-    <link rel="stylesheet" href="card.css">
-</head>
-
 <body>
 
     <div class="row">

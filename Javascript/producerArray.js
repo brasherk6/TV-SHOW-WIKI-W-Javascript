@@ -6,6 +6,7 @@ const producers = ["Brian Watkins, ", "Zev Borow, ", "Brad Pitt, ", "Dede Gardne
 
 var text = "";
 
+//read through the array and add it to the text var
 for (let i = 0; i < producers.length; i++) {
   text += producers[i];
 }

@@ -9,12 +9,9 @@
 
 <body>
 
-    <!----------- HEADER IMAGE -------------------->
-    <div class="header py-4 rounded-0 border-0 mx-auto" style="background: url(https://file.garden/ZVWPh8PdJFNCIhss/Sites/Resume1/Outer%20Range%20Promo%20wide2.jpg); 
-           background-size: cover; background-position:center; height:400px; width: 90%;">
-    </div> <!--Header Image close-->
+    <?php include_once('PHP/HTML_Layout/headerimage.php'); ?>
 
-    <div class="card rounded-0 border-0 mx-auto" style="width: 90%">
+    <div class="card rounded-0 border-0 mx-auto" style="width: 80%">
 
         <div class="container-fluid">
             <div class="row">
@@ -41,7 +38,8 @@
 
 
                     <div class="info m-4">
-                        <iframe width="1000" height="510" src="https://www.youtube.com/embed/pIxgBqTBZZA?si=UHhNoNLt4iS95yQu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe width="520" height="275" src="https://www.youtube.com/embed/pIxgBqTBZZA?si=UHhNoNLt4iS95yQu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe width="520" height="275" src="https://www.youtube.com/embed/8UkDdTMZh14?si=BuHmD__GQXhhzTz8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         <div class="row">
                             <div class="col-3">
                                 <p><B>Executive Produced By:</B></p>

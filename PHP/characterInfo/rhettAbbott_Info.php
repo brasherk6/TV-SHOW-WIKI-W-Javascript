@@ -1,12 +1,6 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-
-    <link rel="stylesheet" href="Resume\CSS\card.css">
-    <link rel="stylesheet" href="card.css">
-</head>
-
 <body>
 
     <div class="row">

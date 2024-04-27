@@ -1,12 +1,6 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <script src="interactiveButtons.js"></script>
-    <link rel="stylesheet" href="Resume\CSS\card.css">
-    <link rel="stylesheet" href="card.css">
-</head>
-
 <body>
     <div class="row">
         <div class="col-md-4">
@@ -123,7 +117,7 @@
             <p> Cecelia's marriage to Royal makes her a primary candidate for the Greek God, Rhea. </p>
 
             <p id="subtitle">Notes</p>
-            <p> None </p>
+            <p> We know that her maiden name was Abbott, as Royal recalled quote "The Abbott's took me in."  </p>
 
         </div> <!--Cold md 8 end-->
 

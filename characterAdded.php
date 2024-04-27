@@ -8,12 +8,9 @@
 <link rel="stylesheet" href="CSS/card.css">
 <body>
 
-    <!----------- HEADER IMAGE -------------------->
-    <div class="header py-4 rounded-0 border-0 mx-auto" style="background: url(https://file.garden/ZVWPh8PdJFNCIhss/Sites/Resume1/Outer%20Range%20Promo%20wide2.jpg); 
-           background-size: cover; background-position:center; height:400px; width: 90%;">
-    </div> <!--Header Image close-->
+    <?php include_once('PHP/HTML_Layout/headerimage.php'); ?>
 
-    <div class="card rounded-0 border-0 mx-auto" style="width: 90%">
+    <div class="card rounded-0 border-0 mx-auto" style="width: 80%">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-3">

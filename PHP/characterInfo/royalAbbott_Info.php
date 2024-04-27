@@ -1,12 +1,6 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <script src="interactiveButtons.js"></script>
-    <link rel="stylesheet" href="Resume\CSS\card.css">
-    <link rel="stylesheet" href="card.css">
-</head>
-
 <body>
 
     <div class="row">
@@ -130,7 +124,7 @@
             Royal married his <i>adoptive</i> sister, Cecelia. Similar to how Chronos married his sister, Rhea. </p>
 
             <p id="subtitle">Notes</p>
-            <p>Born in the mid 1800's, but when he was eight-years-old, he time-traveled into the 1960's.</p>
+            <p>Royal changed his last name to Abbott when he married Cecelia. We know this, because he stated that the Abbott's took him in when he stumbled upon their ranch. </p>
 
         </div> <!--Cold md 8 end-->
 

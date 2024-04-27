@@ -4,6 +4,7 @@ const directors = ["Alonso Ruizpalacios (101, 102), ", "Jennifer Getzinger (103,
 
 var text = "";
 
+//read through the array and add it to the text var
 for (let i = 0; i < directors.length; i++) {
   text += directors[i];
 }
