@@ -56,22 +56,22 @@
                                 <fieldset>
                                     <legend>Biographical Information</legend>
 
-                                    <label for="fullName">*Full Name:</label>
+                                    <label for="fullName">* Full Name:</label>
                                     <input type="text" value="John Doe" name="fullName" id="fullName">
                                     <span id="fullName_error">&nbsp;</span> <br>
 
-                                    <label for="image">*Image: </label>
+                                    <label for="image">* Image: </label>
                                     <input type="url" value="https://file.garden/ZVWPh8PdJFNCIhss/Sites/OuterRangeWiki/image.png" name="image" id="image">
                                     <span id="image_error">&nbsp;</span> <br>
 
-                                    <label for="age">*Age: </label>
+                                    <label for="age">* Age: </label>
                                     <input type="number" value="37" name="age" id="age">
                                     <span id="age_error">&nbsp;</span> <br>
 
                                     <label for="birthday">Birthday: </label>
                                     <input type="date" value="1996-05-24" name="birthday" id="birthday"> <br>
 
-                                    <label for="occupation">*Occupation: </label>
+                                    <label for="occupation">* Occupation: </label>
                                     <input type="occupation" value="Arist" name="occupation" id="occupation">
                                     <span id="occupation_error">&nbsp;</span> <br>
 
@@ -117,7 +117,8 @@
                                     <br> <br>
                                 </fieldset>
 
-                                <input type="button" onClick="validateInput()" id="submit_request" value="Submit Reservation"><br>
+                                <input type="button" onClick="validateInput()" id="submit_request" value="Submit Reservation">
+                                <p id="validation_error">&nbsp;</p> <br>
                             </form>
                         </main>
                     </div> <!--info m-4 Close-->

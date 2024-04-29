@@ -8,6 +8,7 @@
     font-size: 12.6px;
 }
 
+
 .characterName {
     line-height: 1.25;
     padding: 12px 9px;
@@ -57,6 +58,7 @@
     font-weight: bold;
 }
 
+
 #subtitle {
     color: #222079;
     padding-bottom: 4px;
@@ -65,7 +67,7 @@
     font-style: italic;
 }
 
-
+/* Unordered lists */
 ul {
     list-style-type: square;
     margin: 0;

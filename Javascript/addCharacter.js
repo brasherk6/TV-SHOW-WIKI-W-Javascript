@@ -17,7 +17,7 @@ function validateInput() {
     //checks if the full name, image, age and/or occupation entries are empty
     //if empty, valid is set to false (otherwise the form will still submit) and a "Not valid" message is issued
     if (fullName == "") {
-        document.getElementById("fullName_error").innerHTML = "Not valid";
+        document.getElementById("fullName_error").innerHTML = "Required";
         valid = false;
     } else {
         document.getElementById("fullName_error").innerHTML = " ";
@@ -25,29 +25,38 @@ function validateInput() {
 
 
     if (image == "") {
-        document.getElementById("image_error").innerHTML = "Not valid";
+        document.getElementById("image_error").innerHTML = "Required";
         valid = false;
     } else {
         document.getElementById("image_error").innerHTML = " ";
     }
 
     if (age == "") {
-        document.getElementById("age_error").innerHTML = "Not valid";
+        document.getElementById("age_error").innerHTML = "Please enter a valid age (0 or greater)";
         valid = false;
-    } else {
+    }
+    else if (age <= -1) {
+        document.getElementById("age_error").innerHTML = "Please enter a valid age (0 or greater)";
+        valid = false;
+    }
+    else {
         document.getElementById("age_error").innerHTML = " ";
     }
 
 
     if (occupation == "") {
-        document.getElementById("occupation_error").innerHTML = "Not valid";
+        document.getElementById("occupation_error").innerHTML = "Required";
         valid = false;
     } else {
         document.getElementById("occupation_error").innerHTML = " ";
     }
 
-    
-    if (valid == true) { saveReservation(); }
+
+    if (valid == false) {
+        document.getElementById("validation_error").innerHTML = "Please fill out the required form(s)!"
+    }
+    else if (valid == true) { saveReservation(); }
+
 }
 
 
@@ -69,7 +78,7 @@ var saveReservation = function () {
     else if ($("Deceased").checked) {
         sessionStorage.setItem("status", $("Deceased").value);
     }
-    
+
 
     sessionStorage.setItem("mother", $("mother").value);
     sessionStorage.setItem("father", $("father").value);

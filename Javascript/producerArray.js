@@ -2,7 +2,8 @@
 
 
 const producers = ["Brian Watkins, ", "Zev Borow, ", "Brad Pitt, ", "Dede Gardner, ", "Jeremy Kleiner, ", "Josh Brolin, ", "Robin Sweet, ",
-  "MaHeather Raengo, ", "Amy Seimetz, ", "Lawrence Trilling, ", "and Tony Kravitz."];
+  "MaHeather Raengo, ", "Amy Seimetz, ", "Lawrence Trilling, ", "Tony Kravitz, ", " Charles Murray, ", "Ernest McNealey, ", "Heather Rae, ", " and Jon Paré."];
+
 
 var text = "";
 

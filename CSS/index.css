@@ -4,10 +4,9 @@ body {
   background-image: url('https://file.garden/ZVWPh8PdJFNCIhss/Sites/OuterRangeWiki/taylor-brandon-WwE0YWMjwu8-unsplash.jpg');
   background-size: cover;
   background-repeat: none;
-  
- 
 }
 
+/* Unordered list */
 ul {
   list-style-type: none;
   margin: 0;
@@ -15,6 +14,7 @@ ul {
   width: 150px;
 }
 
+/* List links */
 li a {
   display: block;
   color: #000;
@@ -24,20 +24,28 @@ li a {
   text-decoration: none;
 }
 
+/*  List on hover */
 li a:hover {
   background-color: #555;
   color: white;
 }
 
+/* Active page */
 .active {
   background-color: #049faa;
   color: black;
 }
 
+/* Card class */
 .card {
   background-color: rgba(209, 209, 209, 0.925);
 }
 
+/* Error messages */
+#fullName_error, #image_error, #age_error, #occupation_error, #validation_error {
+  color: red;
+  font-weight: bold;
+}
 
 
 /* The side navigation menu */
@@ -47,8 +55,6 @@ li {
   padding: 0;
   width: 200px;
   background-color: #f1f1f1;
-  /* position: fixed; */
-  /*  height: 100%; */
   overflow: auto;
 }
 
